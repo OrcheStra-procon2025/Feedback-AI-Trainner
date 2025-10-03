@@ -1,0 +1,22 @@
+# TensorFlow 2.15.0 と MediaPipe の両方と互換性のあるバージョンを指定
+protobuf==3.20.3
+
+# データセットやモデルを扱うための基本ライブラリ
+# tensorflow はベースイメージに含まれるため削除
+pandas
+numpy
+scikit-learn
+
+# データの可視化用
+matplotlib
+seaborn
+
+# ビデオデータから骨格推定を行う場合に必要
+opencv-python
+mediapipe
+
+# TensorFlow.jsモデル変換ツール (バージョンを固定)
+tensorflowjs==4.17.0
+
+# 進捗表示用
+tqdm

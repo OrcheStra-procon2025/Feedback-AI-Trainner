@@ -1,0 +1,22 @@
+# Git関連
+.git
+.gitignore
+
+# Docker関連設定ファイル
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Pythonのキャッシュや仮想環境
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDEの設定
+.idea/
+.vscode/
+
+# ★★★ 最も重要 ★★★
+# 教師データなどの巨大なデータフォルダ
+data/
